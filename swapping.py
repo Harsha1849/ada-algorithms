@@ -5,9 +5,9 @@ def swapping(a,b):
 
     return a,b
 
-num1=10
-num2=20
+number1=10
+number2=20
 
-print("before swapping: ",num1,num2)
-num1,num2=swapping(num1,num2)
-print("after swapping: ",num1,num2)
+print("before swapping: ",number1,number2)
+num1,num2=swapping(number1,number2)
+print("after swapping: ",number1,number2)
