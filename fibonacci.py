@@ -4,6 +4,6 @@ def fibonacci(n):
         print(a, end=" ")
         a,b=b,a+b
 
-num=int(input("Enter the series range: "))
+num=int(input("Enter the upper limit: "))
 print("Fibonacci Series: ")
 fibonacci(num)
