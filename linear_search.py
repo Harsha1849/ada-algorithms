@@ -1,5 +1,5 @@
 n=int(input("Enter the number of elements in array: "))
-print("Enter sorted array elements: ")
+print("Enter sorted array elements one by one: ")
 arr=[int(input()) for _ in range(n)]
 target=int(input("Enter element to be found: "))
 
