@@ -17,8 +17,8 @@ for i in range(n-1):
             swaps+=1
 
 print("sorted array using bubble sort: ",arr)
-print(f"Number of comparision: {comparision}")
-print(f"Number of swaps: {swaps}")
+print(f"Number of comparision done: {comparision}")
+print(f"Number of swaps done: {swaps}")
 
 end_time=time.time()
 execution_time=end_time-start_time
