@@ -7,7 +7,7 @@ def find_Min(arr):
     return min_value
 
 
-arr=[int(input("enter the elements: ")) for _ in range(int(input("enter the number of elements: ")))]
+arr=[int(input("Enter the elements one by one: ")) for _ in range(int(input("enter the number of elements: ")))]
 start_time=time.time()
 min_element=find_Min(arr)
 end_time=time.time()
