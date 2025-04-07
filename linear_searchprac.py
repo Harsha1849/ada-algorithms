@@ -2,7 +2,7 @@ import time
 n=int(input("Enter the number of elements: "))
 print("Enter elements one by one: ")
 arr=[int(input()) for _ in range()]
-target=int(input("Enter element to be found: "))
+target=int(input("Enter the element to be found: "))
 
 found=False
 
