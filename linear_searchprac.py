@@ -1,22 +1,21 @@
 import time
 n=int(input("Enter the number of elements: "))
-print("Enter elements one by one: ")
-arr=[int(input()) for _ in range()]
-target=int(input("Enter the element to be found: "))
-
-found=False
+print("Enter array elements in sorted order: ")
+arr=[int(input()) for _ in range(n)]
+target=int(input("Enter element to be found: "))
 
 start_time=time.time()
 
+found=False
+
 for i in range(n):
     if arr[i]==target:
-        print(f"Element found at index {i}")
+        print(f"Element found at {i}")
         found=True
         break
-
-if not found:
+else:
     print("Element not found")
 
 end_time=time.time()
 execution_time=end_time-start_time
-print("Time Taken to find: ", execution_time)
+print("Time taken for execution: ", execution_time)
